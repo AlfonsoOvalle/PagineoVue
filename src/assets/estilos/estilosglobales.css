@@ -1,0 +1,85 @@
+h1{
+color: blueviolet;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+
+  .mi-boton {
+    background-color: #4CAF50; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 5px 15px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Para que se comporte como un botón */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen alrededor del botón */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave */
+  }
+  
+  .mi-boton:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+  }
+  
+  .mi-boton:disabled {
+    background-color: #a0a0a0; /* Color de fondo cuando está deshabilitado */
+    cursor: not-allowed; /* Cursor cuando está deshabilitado */
+  }
+
+  /*Primero Ultimo*/
+  .mi-boton2 {
+    background-color: #4e71e4; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 5px 15px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Para que se comporte como un botón */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen alrededor del botón */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave */
+  }
+  
+  .mi-boton2:hover {
+    background-color: #4e71e490; /* Color de fondo al pasar el mouse */
+  }
+  
+  .mi-boton2:disabled {
+    background-color: #a0a0a0; /* Color de fondo cuando está deshabilitado */
+    cursor: not-allowed; /* Cursor cuando está deshabilitado */
+  }
+
+  .detallePagineo{
+    font-size: 18px;
+  }
+
+
+  .mi-input {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .mi-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
