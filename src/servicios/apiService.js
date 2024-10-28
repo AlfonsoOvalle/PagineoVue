@@ -29,7 +29,11 @@ export const obtenerActividadesEconomicas = async (pagina, size) => {
 
 
 
-export const obtenerClientes = async (pagina, size,filtro) => {
-  const response = await apiClientes.get(`/ClientesFiltro?pagina=${pagina}&tamano=${size}&filtro=${filtro}`);
-  return response.data;
+export const obtenerClientes = async (pagina, size, filtro) => {
+  try {
+    const response = await apiClientes.get(`/ClientesFiltro?pagina=${pagina}&tamano=${size}&filtro=${filtro}`);
+    return response.data;
+  } catch (error) {
+    return null
+  }
 };
