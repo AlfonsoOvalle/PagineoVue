@@ -3,7 +3,7 @@
 
 
     <div class="px-8 py-6 ">
-      <h1>Clientes</h1>
+      <h1 class="text-4xl">Clientes</h1>
       <input type="text" class="mi-input" placeholder="buscar cliente" id="inputFiltro" v-model="nombreCliente"
         @input="filtrarCliente">
       <div style="overflow: auto;">
